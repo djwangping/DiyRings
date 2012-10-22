@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B250EAD91635913A00FF70DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EAD81635913A00FF70DE /* UIKit.framework */; };
+		B250EADB1635913A00FF70DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EADA1635913A00FF70DE /* Foundation.framework */; };
+		B250EADD1635913A00FF70DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EADC1635913A00FF70DE /* CoreGraphics.framework */; };
+		B250EAE31635913A00FF70DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B250EAE11635913A00FF70DE /* InfoPlist.strings */; };
+		B250EAE51635913A00FF70DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EAE41635913A00FF70DE /* main.m */; };
+		B250EAE91635913A00FF70DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EAE81635913A00FF70DE /* AppDelegate.m */; };
+		B250EAEB1635913A00FF70DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B250EAEA1635913A00FF70DE /* Default.png */; };
+		B250EAED1635913A00FF70DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B250EAEC1635913A00FF70DE /* Default@2x.png */; };
+		B250EAEF1635913A00FF70DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B250EAEE1635913A00FF70DE /* Default-568h@2x.png */; };
+		B250EB2D1635980500FF70DE /* MyRingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EB2C1635980500FF70DE /* MyRingsViewController.m */; };
+		B250EB301635987500FF70DE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EB2F1635987500FF70DE /* SettingViewController.m */; };
+		B250EB331635989B00FF70DE /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EB321635989B00FF70DE /* RecordViewController.m */; };
+		B250EB36163598DB00FF70DE /* DiyRingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EB35163598DB00FF70DE /* DiyRingsViewController.m */; };
+		B250EB39163598F400FF70DE /* OnlineRingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B250EB38163598F400FF70DE /* OnlineRingsViewController.m */; };
+		B250EB3B1635991000FF70DE /* DiyRingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB3A1635991000FF70DE /* DiyRingsViewController.xib */; };
+		B250EB3D1635991B00FF70DE /* MyRingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB3C1635991B00FF70DE /* MyRingsViewController.xib */; };
+		B250EB3F1635992D00FF70DE /* OnlineRingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB3E1635992D00FF70DE /* OnlineRingsViewController.xib */; };
+		B250EB411635993D00FF70DE /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB401635993D00FF70DE /* RecordViewController.xib */; };
+		B250EB431635994A00FF70DE /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB421635994A00FF70DE /* SettingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B250EAD41635913A00FF70DE /* diyRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diyRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B250EAD81635913A00FF70DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B250EADA1635913A00FF70DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B250EADC1635913A00FF70DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B250EAE01635913A00FF70DE /* diyRings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diyRings-Info.plist"; sourceTree = "<group>"; };
+		B250EAE21635913A00FF70DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B250EAE41635913A00FF70DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B250EAE61635913A00FF70DE /* diyRings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diyRings-Prefix.pch"; sourceTree = "<group>"; };
+		B250EAE71635913A00FF70DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B250EAE81635913A00FF70DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B250EAEA1635913A00FF70DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B250EAEC1635913A00FF70DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B250EAEE1635913A00FF70DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B250EB2B1635980500FF70DE /* MyRingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyRingsViewController.h; path = myRings/MyRingsViewController.h; sourceTree = "<group>"; };
+		B250EB2C1635980500FF70DE /* MyRingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyRingsViewController.m; path = myRings/MyRingsViewController.m; sourceTree = "<group>"; };
+		B250EB2E1635987500FF70DE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = setting/SettingViewController.h; sourceTree = "<group>"; };
+		B250EB2F1635987500FF70DE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = setting/SettingViewController.m; sourceTree = "<group>"; };
+		B250EB321635989B00FF70DE /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordViewController.m; path = record/RecordViewController.m; sourceTree = "<group>"; };
+		B250EB34163598DB00FF70DE /* DiyRingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiyRingsViewController.h; path = diyRings/DiyRingsViewController.h; sourceTree = "<group>"; };
+		B250EB35163598DB00FF70DE /* DiyRingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiyRingsViewController.m; path = diyRings/DiyRingsViewController.m; sourceTree = "<group>"; };
+		B250EB37163598F400FF70DE /* OnlineRingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnlineRingsViewController.h; path = online/OnlineRingsViewController.h; sourceTree = "<group>"; };
+		B250EB38163598F400FF70DE /* OnlineRingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineRingsViewController.m; path = online/OnlineRingsViewController.m; sourceTree = "<group>"; };
+		B250EB3A1635991000FF70DE /* DiyRingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiyRingsViewController.xib; path = diyRings/DiyRingsViewController.xib; sourceTree = "<group>"; };
+		B250EB3C1635991B00FF70DE /* MyRingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyRingsViewController.xib; path = myRings/MyRingsViewController.xib; sourceTree = "<group>"; };
+		B250EB3E1635992D00FF70DE /* OnlineRingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OnlineRingsViewController.xib; path = online/OnlineRingsViewController.xib; sourceTree = "<group>"; };
+		B250EB401635993D00FF70DE /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecordViewController.xib; path = record/RecordViewController.xib; sourceTree = "<group>"; };
+		B250EB421635994A00FF70DE /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = setting/SettingViewController.xib; sourceTree = "<group>"; };
+		B250EB44163599FA00FF70DE /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordViewController.h; path = record/RecordViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B250EAD11635913A00FF70DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B250EAD91635913A00FF70DE /* UIKit.framework in Frameworks */,
+				B250EADB1635913A00FF70DE /* Foundation.framework in Frameworks */,
+				B250EADD1635913A00FF70DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B250EAC91635913A00FF70DE = {
+			isa = PBXGroup;
+			children = (
+				B250EADE1635913A00FF70DE /* diyRings */,
+				B250EAD71635913A00FF70DE /* Frameworks */,
+				B250EAD51635913A00FF70DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B250EAD51635913A00FF70DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B250EAD41635913A00FF70DE /* diyRings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B250EAD71635913A00FF70DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B250EAD81635913A00FF70DE /* UIKit.framework */,
+				B250EADA1635913A00FF70DE /* Foundation.framework */,
+				B250EADC1635913A00FF70DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B250EADE1635913A00FF70DE /* diyRings */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB101635943C00FF70DE /* utils */,
+				B250EB0F1635943500FF70DE /* model */,
+				B250EB0E163593E000FF70DE /* controller */,
+				B250EB2A1635967C00FF70DE /* xib */,
+				B250EAE71635913A00FF70DE /* AppDelegate.h */,
+				B250EAE81635913A00FF70DE /* AppDelegate.m */,
+				B250EADF1635913A00FF70DE /* Supporting Files */,
+			);
+			path = diyRings;
+			sourceTree = "<group>";
+		};
+		B250EADF1635913A00FF70DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B250EAE01635913A00FF70DE /* diyRings-Info.plist */,
+				B250EAE11635913A00FF70DE /* InfoPlist.strings */,
+				B250EAE41635913A00FF70DE /* main.m */,
+				B250EAE61635913A00FF70DE /* diyRings-Prefix.pch */,
+				B250EAEA1635913A00FF70DE /* Default.png */,
+				B250EAEC1635913A00FF70DE /* Default@2x.png */,
+				B250EAEE1635913A00FF70DE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B250EB091635931200FF70DE /* onlineRings */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB37163598F400FF70DE /* OnlineRingsViewController.h */,
+				B250EB38163598F400FF70DE /* OnlineRingsViewController.m */,
+			);
+			name = onlineRings;
+			sourceTree = "<group>";
+		};
+		B250EB0A1635936A00FF70DE /* diyRings */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB34163598DB00FF70DE /* DiyRingsViewController.h */,
+				B250EB35163598DB00FF70DE /* DiyRingsViewController.m */,
+			);
+			name = diyRings;
+			sourceTree = "<group>";
+		};
+		B250EB0B1635938400FF70DE /* recordRings */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB44163599FA00FF70DE /* RecordViewController.h */,
+				B250EB321635989B00FF70DE /* RecordViewController.m */,
+			);
+			name = recordRings;
+			sourceTree = "<group>";
+		};
+		B250EB0C163593BB00FF70DE /* myRings */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB2B1635980500FF70DE /* MyRingsViewController.h */,
+				B250EB2C1635980500FF70DE /* MyRingsViewController.m */,
+			);
+			name = myRings;
+			sourceTree = "<group>";
+		};
+		B250EB0D163593CC00FF70DE /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB2E1635987500FF70DE /* SettingViewController.h */,
+				B250EB2F1635987500FF70DE /* SettingViewController.m */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		B250EB0E163593E000FF70DE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB0D163593CC00FF70DE /* setting */,
+				B250EB0C163593BB00FF70DE /* myRings */,
+				B250EB0B1635938400FF70DE /* recordRings */,
+				B250EB0A1635936A00FF70DE /* diyRings */,
+				B250EB091635931200FF70DE /* onlineRings */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		B250EB0F1635943500FF70DE /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B250EB101635943C00FF70DE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		B250EB2A1635967C00FF70DE /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB421635994A00FF70DE /* SettingViewController.xib */,
+				B250EB401635993D00FF70DE /* RecordViewController.xib */,
+				B250EB3E1635992D00FF70DE /* OnlineRingsViewController.xib */,
+				B250EB3C1635991B00FF70DE /* MyRingsViewController.xib */,
+				B250EB3A1635991000FF70DE /* DiyRingsViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B250EAD31635913A00FF70DE /* diyRings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B250EB061635913A00FF70DE /* Build configuration list for PBXNativeTarget "diyRings" */;
+			buildPhases = (
+				B250EAD01635913A00FF70DE /* Sources */,
+				B250EAD11635913A00FF70DE /* Frameworks */,
+				B250EAD21635913A00FF70DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diyRings;
+			productName = diyRings;
+			productReference = B250EAD41635913A00FF70DE /* diyRings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B250EACB1635913A00FF70DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = lcywp;
+			};
+			buildConfigurationList = B250EACE1635913A00FF70DE /* Build configuration list for PBXProject "diyRings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B250EAC91635913A00FF70DE;
+			productRefGroup = B250EAD51635913A00FF70DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B250EAD31635913A00FF70DE /* diyRings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B250EAD21635913A00FF70DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B250EAE31635913A00FF70DE /* InfoPlist.strings in Resources */,
+				B250EAEB1635913A00FF70DE /* Default.png in Resources */,
+				B250EAED1635913A00FF70DE /* Default@2x.png in Resources */,
+				B250EAEF1635913A00FF70DE /* Default-568h@2x.png in Resources */,
+				B250EB3B1635991000FF70DE /* DiyRingsViewController.xib in Resources */,
+				B250EB3D1635991B00FF70DE /* MyRingsViewController.xib in Resources */,
+				B250EB3F1635992D00FF70DE /* OnlineRingsViewController.xib in Resources */,
+				B250EB411635993D00FF70DE /* RecordViewController.xib in Resources */,
+				B250EB431635994A00FF70DE /* SettingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B250EAD01635913A00FF70DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B250EAE51635913A00FF70DE /* main.m in Sources */,
+				B250EAE91635913A00FF70DE /* AppDelegate.m in Sources */,
+				B250EB2D1635980500FF70DE /* MyRingsViewController.m in Sources */,
+				B250EB301635987500FF70DE /* SettingViewController.m in Sources */,
+				B250EB331635989B00FF70DE /* RecordViewController.m in Sources */,
+				B250EB36163598DB00FF70DE /* DiyRingsViewController.m in Sources */,
+				B250EB39163598F400FF70DE /* OnlineRingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B250EAE11635913A00FF70DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B250EAE21635913A00FF70DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B250EB041635913A00FF70DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B250EB051635913A00FF70DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B250EB071635913A00FF70DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diyRings/diyRings-Prefix.pch";
+				INFOPLIST_FILE = "diyRings/diyRings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B250EB081635913A00FF70DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diyRings/diyRings-Prefix.pch";
+				INFOPLIST_FILE = "diyRings/diyRings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B250EACE1635913A00FF70DE /* Build configuration list for PBXProject "diyRings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B250EB041635913A00FF70DE /* Debug */,
+				B250EB051635913A00FF70DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B250EB061635913A00FF70DE /* Build configuration list for PBXNativeTarget "diyRings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B250EB071635913A00FF70DE /* Debug */,
+				B250EB081635913A00FF70DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B250EACB1635913A00FF70DE /* Project object */;
+}
