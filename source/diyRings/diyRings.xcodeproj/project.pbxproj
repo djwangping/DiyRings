@@ -57,6 +57,7 @@
 		B250EB401635993D00FF70DE /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecordViewController.xib; path = record/RecordViewController.xib; sourceTree = "<group>"; };
 		B250EB421635994A00FF70DE /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = setting/SettingViewController.xib; sourceTree = "<group>"; };
 		B250EB44163599FA00FF70DE /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordViewController.h; path = record/RecordViewController.h; sourceTree = "<group>"; };
+		B250EB461635A0E600FF70DE /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = utils/common/SynthesizeSingleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +196,7 @@
 		B250EB101635943C00FF70DE /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				B250EB451635A09100FF70DE /* common */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -209,6 +211,14 @@
 				B250EB3A1635991000FF70DE /* DiyRingsViewController.xib */,
 			);
 			name = xib;
+			sourceTree = "<group>";
+		};
+		B250EB451635A09100FF70DE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				B250EB461635A0E600FF70DE /* SynthesizeSingleton.h */,
+			);
+			name = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
