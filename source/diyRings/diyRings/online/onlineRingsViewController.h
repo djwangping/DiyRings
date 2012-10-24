@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OnlineRingsViewController : UIViewController
+
+@interface OnlineRingsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    UITableView* _ringTableViewOnline;
+    NSArray*     _dataArr;
+    NSIndexPath* _selectIndex;
+}
+
+@property (retain, nonatomic) UITableView* ringTableViewOnline;
+@property (retain, nonatomic) NSArray* dataArr;
+@property (retain, nonatomic) NSIndexPath* selectIndex;
 
 @end

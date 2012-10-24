@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B5AA0F16382EAC004A6C7F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B5AA0E16382EAC004A6C7F /* bg.png */; };
+		04B5AA13163833F7004A6C7F /* cellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B5AA12163833F7004A6C7F /* cellbg.png */; };
+		04B5AA15163837B1004A6C7F /* cellbg_option.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B5AA14163837B1004A6C7F /* cellbg_option.png */; };
 		B250EAD91635913A00FF70DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EAD81635913A00FF70DE /* UIKit.framework */; };
 		B250EADB1635913A00FF70DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EADA1635913A00FF70DE /* Foundation.framework */; };
 		B250EADD1635913A00FF70DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B250EADC1635913A00FF70DE /* CoreGraphics.framework */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B5AA0E16382EAC004A6C7F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		04B5AA12163833F7004A6C7F /* cellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellbg.png; sourceTree = "<group>"; };
+		04B5AA14163837B1004A6C7F /* cellbg_option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellbg_option.png; sourceTree = "<group>"; };
 		B250EAD41635913A00FF70DE /* diyRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diyRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B250EAD81635913A00FF70DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B250EADA1635913A00FF70DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				B250EAE01635913A00FF70DE /* diyRings-Info.plist */,
+				04B5AA0E16382EAC004A6C7F /* bg.png */,
+				04B5AA14163837B1004A6C7F /* cellbg_option.png */,
+				04B5AA12163833F7004A6C7F /* cellbg.png */,
 				B250EAE11635913A00FF70DE /* InfoPlist.strings */,
 				B250EAE41635913A00FF70DE /* main.m */,
 				B250EAE61635913A00FF70DE /* diyRings-Prefix.pch */,
@@ -281,6 +290,9 @@
 				B250EB3F1635992D00FF70DE /* OnlineRingsViewController.xib in Resources */,
 				B250EB411635993D00FF70DE /* RecordViewController.xib in Resources */,
 				B250EB431635994A00FF70DE /* SettingViewController.xib in Resources */,
+				04B5AA0F16382EAC004A6C7F /* bg.png in Resources */,
+				04B5AA13163833F7004A6C7F /* cellbg.png in Resources */,
+				04B5AA15163837B1004A6C7F /* cellbg_option.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				B250EB081635913A00FF70DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
