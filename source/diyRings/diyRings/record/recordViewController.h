@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WPAudioRecord.h"
 
 @interface RecordViewController : UIViewController
+{
+    WPAudioRecord*   _record;
+}
+
+@property (nonatomic,retain) IBOutlet UIButton* btn_Record;
+
+- (void)btnRecordAction:(id)sender;
 
 @end

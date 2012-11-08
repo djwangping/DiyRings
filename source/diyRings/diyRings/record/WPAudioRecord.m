@@ -7,8 +7,6 @@
 //
 
 #import "WPAudioRecord.h"
-#import <AVFoundation/AVFoundation.h>
-#import <CoreAudio/CoreAudioTypes.h>
 
 @interface WPAudioRecord(private)
 - (void)initSetting;
