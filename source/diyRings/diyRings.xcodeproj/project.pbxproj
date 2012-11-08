@@ -29,6 +29,12 @@
 		B250EB3F1635992D00FF70DE /* OnlineRingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB3E1635992D00FF70DE /* OnlineRingsViewController.xib */; };
 		B250EB411635993D00FF70DE /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB401635993D00FF70DE /* RecordViewController.xib */; };
 		B250EB431635994A00FF70DE /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B250EB421635994A00FF70DE /* SettingViewController.xib */; };
+		B2D85F4B164BE56600CFBBD5 /* WPAudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D85F4A164BE56600CFBBD5 /* WPAudioRecord.m */; };
+		B2D85F51164BE90200CFBBD5 /* btn_record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D85F4E164BE90200CFBBD5 /* btn_record_off.png */; };
+		B2D85F52164BE90200CFBBD5 /* btn_record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D85F4F164BE90200CFBBD5 /* btn_record_on.png */; };
+		B2D85F53164BE90200CFBBD5 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D85F50164BE90200CFBBD5 /* mic.png */; };
+		B2D85F58164BEA5900CFBBD5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D85F56164BEA4D00CFBBD5 /* AVFoundation.framework */; };
+		B2D85F59164BEA5900CFBBD5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D85F54164BEA4400CFBBD5 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,13 @@
 		B250EB421635994A00FF70DE /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = setting/SettingViewController.xib; sourceTree = "<group>"; };
 		B250EB44163599FA00FF70DE /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordViewController.h; path = record/RecordViewController.h; sourceTree = "<group>"; };
 		B250EB461635A0E600FF70DE /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = utils/common/SynthesizeSingleton.h; sourceTree = "<group>"; };
+		B2D85F49164BE56600CFBBD5 /* WPAudioRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPAudioRecord.h; path = record/WPAudioRecord.h; sourceTree = "<group>"; };
+		B2D85F4A164BE56600CFBBD5 /* WPAudioRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPAudioRecord.m; path = record/WPAudioRecord.m; sourceTree = "<group>"; };
+		B2D85F4E164BE90200CFBBD5 /* btn_record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_record_off.png; path = img/btn_record_off.png; sourceTree = "<group>"; };
+		B2D85F4F164BE90200CFBBD5 /* btn_record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_record_on.png; path = img/btn_record_on.png; sourceTree = "<group>"; };
+		B2D85F50164BE90200CFBBD5 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic.png; path = img/mic.png; sourceTree = "<group>"; };
+		B2D85F54164BEA4400CFBBD5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B2D85F56164BEA4D00CFBBD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +86,8 @@
 			files = (
 				B250EAD91635913A00FF70DE /* UIKit.framework in Frameworks */,
 				B250EADB1635913A00FF70DE /* Foundation.framework in Frameworks */,
+				B2D85F58164BEA5900CFBBD5 /* AVFoundation.framework in Frameworks */,
+				B2D85F59164BEA5900CFBBD5 /* CoreAudio.framework in Frameworks */,
 				B250EADD1635913A00FF70DE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +115,8 @@
 		B250EAD71635913A00FF70DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2D85F56164BEA4D00CFBBD5 /* AVFoundation.framework */,
+				B2D85F54164BEA4400CFBBD5 /* CoreAudio.framework */,
 				B250EAD81635913A00FF70DE /* UIKit.framework */,
 				B250EADA1635913A00FF70DE /* Foundation.framework */,
 				B250EADC1635913A00FF70DE /* CoreGraphics.framework */,
@@ -114,6 +131,7 @@
 				B250EB0F1635943500FF70DE /* model */,
 				B250EB0E163593E000FF70DE /* controller */,
 				B250EB2A1635967C00FF70DE /* xib */,
+				B2D85F4D164BE8EB00CFBBD5 /* imgs */,
 				B250EAE71635913A00FF70DE /* AppDelegate.h */,
 				B250EAE81635913A00FF70DE /* AppDelegate.m */,
 				B250EADF1635913A00FF70DE /* Supporting Files */,
@@ -159,6 +177,8 @@
 		B250EB0B1635938400FF70DE /* recordRings */ = {
 			isa = PBXGroup;
 			children = (
+				B2D85F49164BE56600CFBBD5 /* WPAudioRecord.h */,
+				B2D85F4A164BE56600CFBBD5 /* WPAudioRecord.m */,
 				B250EB44163599FA00FF70DE /* RecordViewController.h */,
 				B250EB321635989B00FF70DE /* RecordViewController.m */,
 			);
@@ -230,6 +250,16 @@
 			name = common;
 			sourceTree = "<group>";
 		};
+		B2D85F4D164BE8EB00CFBBD5 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				B2D85F4E164BE90200CFBBD5 /* btn_record_off.png */,
+				B2D85F4F164BE90200CFBBD5 /* btn_record_on.png */,
+				B2D85F50164BE90200CFBBD5 /* mic.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,6 +323,9 @@
 				04B5AA0F16382EAC004A6C7F /* bg.png in Resources */,
 				04B5AA13163833F7004A6C7F /* cellbg.png in Resources */,
 				04B5AA15163837B1004A6C7F /* cellbg_option.png in Resources */,
+				B2D85F51164BE90200CFBBD5 /* btn_record_off.png in Resources */,
+				B2D85F52164BE90200CFBBD5 /* btn_record_on.png in Resources */,
+				B2D85F53164BE90200CFBBD5 /* mic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +343,7 @@
 				B250EB331635989B00FF70DE /* RecordViewController.m in Sources */,
 				B250EB36163598DB00FF70DE /* DiyRingsViewController.m in Sources */,
 				B250EB39163598F400FF70DE /* OnlineRingsViewController.m in Sources */,
+				B2D85F4B164BE56600CFBBD5 /* WPAudioRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
